@@ -26,7 +26,6 @@ namespace leave_management.Repository
 
         public LeaveType FindById(int id)
         {
-            // _db.LeaveTypes.FirstOrDefault()
             var leaveTypes = _db.LeaveTypes.Find(id);
             return leaveTypes;
         }
